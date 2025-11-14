@@ -12,7 +12,7 @@ npm install
 node server.js
 ```
 
-You should see: `Mock API server running on http://localhost:5000`
+You should see: `Mock API server running on https://chat-appilication.onrender.com`
 
 ### Step 2: Start the Frontend
 
@@ -45,6 +45,6 @@ Navigate to the frontend URL shown in the terminal (usually `http://localhost:51
 
 - **Backend not responding**: Make sure the backend is running on port 5000
 - **CORS errors**: Ensure the backend server is running and CORS is enabled
-- **Frontend can't connect**: Check that `http://localhost:5000` is accessible
+- **Frontend can't connect**: Check that `https://chat-appilication.onrender.com` is accessible
 - **Port already in use**: Change the PORT in `backend/server.js` if needed
 

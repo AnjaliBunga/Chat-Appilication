@@ -57,7 +57,7 @@ npm install
 node server.js
 ```
 
-The backend will run on `http://localhost:5000`
+The backend will run on `https://chat-appilication.onrender.com`
 
 ### Frontend Setup
 

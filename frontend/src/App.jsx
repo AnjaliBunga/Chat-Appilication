@@ -28,7 +28,7 @@ function App() {
 
   const handleNewSession = async () => {
     try {
-      const response = await fetch('http://localhost:5000/api/sessions', {
+      const response = await fetch('https://chat-appilication.onrender.com/api/sessions', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
@@ -45,7 +45,7 @@ function App() {
 
   const loadSessions = async () => {
     try {
-      const response = await fetch('http://localhost:5000/api/sessions');
+      const response = await fetch('https://chat-appilication.onrender.com/api/sessions');
       const data = await response.json();
       setSessions(data);
     } catch (error) {

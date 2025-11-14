@@ -4,7 +4,7 @@ import ChatInput from './ChatInput';
 import TableResponse from './TableResponse';
 import './ChatPage.css';
 
-const API_BASE_URL = 'http://localhost:5000/api';
+const API_BASE_URL = 'https://chat-appilication.onrender.com/api';
 
 function ChatPage({ onSessionsUpdate }) {
   const { sessionId } = useParams();
