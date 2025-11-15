@@ -76,7 +76,7 @@ npm install
 npm run dev
 ```
 
-The frontend will typically run on `http://localhost:5173` (Vite default port)
+The frontend will typically run on `(https://chat-appilication.netlify.app/)` (Vite default port)
 
 ## API Endpoints
 
